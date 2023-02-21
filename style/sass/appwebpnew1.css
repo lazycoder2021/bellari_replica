@@ -1,0 +1,1981 @@
+﻿header {
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    z-index: 999;
+    display: inline-flex !important;
+    transition: all 1s;
+}
+
+.port-message {
+    display: none;
+}
+
+    .port-message h2 {
+        color: #fff;
+        text-align: center;
+        top: 43%;
+        position: relative;
+    }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@media(min-width:769px) {
+    .bgpricing .pricingTextContainer {
+    }
+
+    .gallerycnt {
+        padding-left: 88px
+    }
+
+    .call {
+        display: none !important
+    }
+
+    .inquire {
+        right: 63px !important;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1028px) {
+    .port-message {
+        display: block;
+        position: fixed;
+        top: 0;
+        z-index: 998;
+        width: 100%;
+        height: 100%;
+        background-color: #006756;
+        background-image: url( https://ik.imagekit.io/gsquare/Salient/Pattern.png);
+        background-size: cover;
+    }
+}
+
+header.stickyMobile .lightLogo,
+header.sticky .lightLogo {
+    display: none;
+}
+
+header .darklLogo {
+    display: none;
+}
+
+header.stickyMobile .darklLogo,
+header.sticky .darklLogo,
+header.stickyMobile .call-light,
+header.sticky .call-light {
+    display: inline-block;
+}
+
+
+header.stickyMobile .call-dark,
+header.sticky .call-dark {
+    display: none;
+}
+
+header.stickyMobile .call,
+header.sticky .call {
+    background-color: #006756;
+}
+
+header.stickyMobile .inquire,
+header.sticky .inquire {
+    background: #006757;
+    color: #FFF;
+}
+
+.call-light {
+    display: none;
+}
+
+header img {
+    width: 200px;
+}
+
+.darklLogo {
+    display: none;
+}
+
+.darkheader .darklLogo {
+    display: block;
+}
+
+.darkheader .lightLogo {
+    display: none;
+}
+
+.lightheader .darklLogo {
+    display: none;
+}
+
+.lightheader .lightLogo {
+    display: block;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    /*background: url(../images/clouds.jpg) no-repeat;*/
+    background-size: cover;
+}
+
+.bgwater #bubbles {
+    padding: 100px 0;
+}
+
+.bgwater .bgwaterleft {
+    left: -5%;
+    height: 100%;
+    position: absolute;
+}
+
+.bgwater .bgwaterright {
+    right: -5%;
+    height: 100%;
+    position: absolute;
+}
+
+.bgwater .bubbleContainer {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    padding: 10px 2% 0 2%;
+    display: flex;
+    align-items: center;
+}
+
+    .bgwater .bubbleContainer h3 {
+        font-size: 50px !important;
+        color: #aaf0ff;
+        line-height: 1;
+        margin-left: 0px;
+        font-weight: 300;
+        z-index: 9;
+        position: relative;
+        font-family: 'Dahlia';
+        text-align: center;
+    }
+
+    .bgwater .bubbleContainer .imageContainer {
+        width: 28%;
+        /*width: 280px;*/
+        overflow: hidden;
+        height: calc(100% - 200px);
+        border-radius: 0 30% 0 30%;
+        margin-top: -25px;
+        float: left;
+    }
+
+        .bgwater .bubbleContainer .imageContainer img {
+            height: 100%;
+            width: 100%;
+        }
+
+    .bgwater .bubbleContainer .bubbleGroup {
+        width: 45%;
+        font-family: 'gitan-latin';
+        float: left;
+        position: relative;
+        /* width: calc(100% - 350px); */
+        height: 100%;
+        text-align: center;
+        font-size: 13px
+    }
+
+.section1-stamp img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.bgwater .bubbleContainer .bubbleGroup .bubbleChild1 .drop {
+    left: -30% !important;
+    margin-top: 10% !important;
+}
+
+.bgwater .bubbleContainer .bubbleGroup .bubbleChild2 .drop {
+    left: -4vw !important;
+    margin-top: 38vh !important;
+    width: 170px;
+    height: 170px;
+}
+
+.bgwater .bubbleContainer .bubbleGroup .bubbleChild2l .drop {
+    width: 140px;
+    height: 120px;
+    left: -9vw !important;
+}
+
+.bgwater .bubbleContainer .bubbleGroup .bubbleChild3 .drop {
+    left: 20vw !important;
+    margin-top: -3vh !important;
+    width: 110px;
+    height: 110px;
+}
+
+.bgwater .bubbleContainer .bubbleGroup .bubbleChild3l .drop {
+    left: 14vw !important;
+    margin-top: 5vh !important;
+    width: 110px;
+    height: 96px
+}
+
+.bgwater .bubbleContainer .bubbleGroup .bubbleChild4 .drop {
+    left: 42% !important;
+    margin-top: 14vh !important;
+    width: 160px;
+    height: 160px;
+}
+
+.bgwater .bubbleContainer .bubbleGroup .bubbleChild4l .drop {
+    left: 72% !important;
+    margin-top: 32vh !important;
+    width: 170px;
+    height: 110px;
+}
+
+.bgwater .bubbleContainer .bubbleGroup .bubbleChild5 .drop {
+    right: -100% !important;
+    margin-top: 37vh !important;
+    width: 67px;
+    height: 51px;
+    left: auto;
+}
+
+.bgpricing {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+    .bgpricing .pricingTextContainer {
+        float: left;
+        /*width: 50%;*/
+        position: relative;
+        z-index: 9;
+        margin: 0 auto;
+    }
+
+        .bgpricing .pricingTextContainer h3, .bgLayout .pricingTextContainer .layouttext h3 {
+            font-size: 90px;
+            padding-left: 0;
+            color: #006757;
+            font-family: 'Dahlia';
+            font-weight: 200;
+            /*line-height: 1.9;*/
+            margin-bottom: 20px;
+        }
+
+
+        .bgpricing .pricingTextContainer ul {
+            list-style: none;
+            padding: 0;
+            display: -webkit-flex;
+            display: -webkit-box;
+        }
+
+@media not all and (min-resolution:.001dpcm) {
+    .bgpricing .pricingTextContainer ul {
+        display: flex !important;
+    }
+}
+
+.bgpricing .pricingTextContainer ul li {
+    font-weight: 600;
+    width: 33%;
+    float: left;
+    font-size: 17px;
+    padding: 7px 10px 10px 10px;
+    font-family: 'gitan-latin';
+}
+
+    .bgpricing .pricingTextContainer ul li img {
+        width: 45px;
+        margin-bottom: 7px;
+    }
+
+.bgpricing .pricingTextContainer ul .bg {
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #5b9a9e;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.bgpricing .pricingTextContainer section {
+    padding-left: 35px;
+}
+
+.bgpricing .pricingTextContainer .centerCont li {
+    padding: 7px 10px 10px 10px;
+}
+
+.bgpricing .pricingImgContainer {
+    float: left;
+    width: 50%;
+}
+
+    .bgpricing .pricingImgContainer img {
+        width: 100%;
+        transform: scale(1.8);
+    }
+
+.bgLayout {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+    .bgLayout .pricingTextContainer {
+        float: left;
+        width: 50%;
+        position: relative;
+        z-index: 9;
+        padding-top: 20px;
+    }
+
+        .bgLayout .pricingTextContainer .layouttext {
+            /* padding: 0 130px;*/
+            max-width: 400px;
+            margin: 0 40px 0 auto;
+        }
+
+            /*.bgLayout .pricingTextContainer .layouttext h3 {
+  font-size: 70px;
+  color: #006757;
+  font-family: 'Dahlia';
+  font-weight: 200;
+  line-height: 1.9;
+}*/
+
+            .bgLayout .pricingTextContainer .layouttext h4 {
+                font-size: 29px;
+                line-height: 1.3;
+                font-family: 'gitan-latin';
+                font-weight: 100;
+                margin-bottom: 16px;
+            }
+
+            .bgLayout .pricingTextContainer .layouttext p {
+                font-size: 16px;
+                padding: 8px 0;
+                font-family: 'gitan-latin';
+                font-weight: 100;
+                line-height: 1.4;
+            }
+
+            .bgLayout .pricingTextContainer .layouttext a {
+                line-height: 2.5;
+                font-size: 16px;
+                color: #000;
+                text-decoration: none;
+                font-weight: 600;
+                display: flex;
+            }
+
+                .bgLayout .pricingTextContainer .layouttext a img {
+                    width: 35px;
+                    padding-left: 10px;
+                }
+
+            .bgLayout .pricingTextContainer .layouttext .arrowright {
+                transform: scale(0.6);
+                position: relative;
+                right: -177px;
+                top: -88px;
+            }
+
+    .bgLayout .pricingImgContainer {
+        float: left;
+        width: 50%;
+    }
+
+        .bgLayout .pricingImgContainer .layoutImg {
+            margin: 0 auto;
+            width: 50%;
+            height: 500px;
+            background-image: url("https://ik.imagekit.io/gsquare/Layout/Img-3.jpg?tr=f-webp");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            z-index: 1;
+        }
+/*#layoutcont .pricingImgContainer .layoutImg{
+	width:45%;
+	height:450px;
+	margin:2%;
+	display:inline-block;
+}*/
+#layoutcont .pricingImgContainer .layoutImgtwo {
+    background-image: url("https://ik.imagekit.io/gsquare/Layout/Img-3.jpg?tr=f-webp");
+}
+
+.bgLayout .pricingImgContainer .layoutImg img {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    right: -45px;
+    bottom: 100px;
+    cursor: pointer;
+}
+/*#layoutcont .pricingImgContainer .layoutImg img {
+	    height: 80px;
+    width: 80px;
+	right:-33px;
+}*/
+.amenities {
+    min-width: 140vw;
+    height: 100vh;
+    position: relative;
+    background-color: #f8f9fb;
+    transform: skewX(-5deg);
+}
+
+    .amenities .sliceCont {
+        transform: skewX(5deg);
+    }
+
+        .amenities .sliceCont .bgwaterleft {
+            position: absolute;
+            left: -180px;
+        }
+
+    .amenities .pricingTextContainer {
+        float: left;
+        width: 35%;
+        position: relative;
+        z-index: 9;
+        padding-top: 100px;
+    }
+
+        .amenities .pricingTextContainer h3 {
+            font-size: 80px;
+            color: #006757;
+            font-family: 'Dahlia';
+            font-weight: 200;
+            line-height: 1.9;
+        }
+
+        .amenities .pricingTextContainer .layouttext {
+            padding-left: 14px;
+            padding-top: 10vh;
+            max-width: 300px;
+        }
+
+            .amenities .pricingTextContainer .layouttext h5 {
+                font-size: 27px;
+                font-family: gitan-latin;
+                font-weight: 300;
+            }
+
+            .amenities .pricingTextContainer .layouttext p {
+                font-size: 16px;
+                line-height: 1.3;
+                padding-top: 10px;
+                font-family: 'gitan-latin';
+            }
+
+    .amenities .pricingImgContainer {
+        float: left;
+        width: auto;
+        min-width: 65%;
+        height: 100vh;
+    }
+
+        .amenities .pricingImgContainer .layoutImg {
+            position: relative;
+            height: 100%;
+        }
+
+        .amenities .pricingImgContainer .amenities-ico {
+            position: absolute;
+            z-index: 9;
+            bottom: 27%;
+            left: -164px;
+            height: 200px;
+            width: 230px;
+            transform: scale(1.2);
+        }
+
+            .amenities .pricingImgContainer .amenities-ico h4 {
+                font-size: 15px;
+                font-weight: 300;
+                padding-left: 70px;
+                font-family: 'gitan-latin';
+            }
+
+            .amenities .pricingImgContainer .amenities-ico .imageCont {
+                position: relative;
+                width: 200px;
+                top: 50px;
+            }
+
+                .amenities .pricingImgContainer .amenities-ico .imageCont .circleImg {
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    z-index: 2;
+                    position: relative;
+                    margin-top: 30px;
+                }
+
+                .amenities .pricingImgContainer .amenities-ico .imageCont .icon {
+                    width: 30px;
+                    z-index: 9;
+                    position: absolute;
+                    left: -35px;
+                    bottom: 0px;
+                }
+
+                .amenities .pricingImgContainer .amenities-ico .imageCont .person {
+                    width: 30px;
+                    z-index: 9;
+                    position: absolute;
+                    right: 0;
+                    cursor: pointer;
+                }
+
+            .amenities .pricingImgContainer .amenities-ico .toolTipContainer {
+                display: none;
+                position: absolute;
+                top: 50px;
+                right: -145px;
+                width: 125px;
+                height: auto;
+                background-color: #006757;
+                padding: 20px;
+                border-radius: 10px;
+                color: #fff;
+                z-index: 999;
+            }
+
+                .amenities .pricingImgContainer .amenities-ico .toolTipContainer ul {
+                    padding: 0;
+                }
+
+                    .amenities .pricingImgContainer .amenities-ico .toolTipContainer ul li {
+                        list-style: none;
+                        font-size: 12px;
+                        line-height: 1.2;
+                        display: flex;
+                        padding-bottom: 10px;
+                    }
+
+                        .amenities .pricingImgContainer .amenities-ico .toolTipContainer ul li img {
+                            width: 8px;
+                            padding-right: 10px;
+                        }
+
+            .amenities .pricingImgContainer .amenities-ico .cont4 {
+                top: 60px;
+                right: 130px;
+                z-index: 9;
+            }
+
+            .amenities .pricingImgContainer .amenities-ico .cont2 {
+                top: 0px;
+            }
+
+            .amenities .pricingImgContainer .amenities-ico .cont3 {
+                top: 100px;
+            }
+
+        .amenities .pricingImgContainer .ico-child1 {
+            top: 15%;
+            left: 20%;
+        }
+
+            .amenities .pricingImgContainer .ico-child1 h4 {
+                padding-left: 0;
+                margin-left: -139px;
+            }
+
+            .amenities .pricingImgContainer .ico-child1 .imageCont {
+                top: -10px;
+            }
+
+        .amenities .pricingImgContainer .ico-child2 {
+            bottom: bottom: 33%;
+            left: 46%;
+        }
+
+        .amenities .pricingImgContainer .ico-child3 {
+            top: 7%;
+            left: 75%;
+        }
+
+            .amenities .pricingImgContainer .ico-child3 h4 {
+                padding-left: 0;
+                margin-left: -102px;
+            }
+
+            .amenities .pricingImgContainer .ico-child3 .imageCont {
+                top: 35px;
+                left: -30px;
+            }
+
+        .amenities .pricingImgContainer img {
+            width: 100%;
+            transform: scale(2);
+        }
+
+.walkthrogh {
+    min-width: 100vw;
+    height: 100vh;
+    position: relative;
+    transform: skewX(-5deg);
+}
+
+    .walkthrogh .sliceCont {
+        transform: skewX(5deg);
+        height: 100%;
+    }
+
+        .walkthrogh .sliceCont .bgwaterleft {
+            position: absolute;
+            left: -40px;
+            z-index: 3;
+        }
+
+        .walkthrogh .sliceCont .bgwaterright {
+            position: absolute;
+            height: 100%;
+            right: 0px;
+            top: 0;
+        }
+
+        .walkthrogh .sliceCont h3 {
+            font-size: 90px;
+            z-index: 3;
+            position: relative;
+            padding-top: 70px;
+            color: #006757;
+            font-family: 'Dahlia';
+            font-weight: 300;
+            line-height: 1.9;
+        }
+
+        .walkthrogh .sliceCont .cycle {
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+.galleryContainer .pricingImgContainer {
+    position: absolute;
+    right: -20%;
+    top: 2%;
+}
+
+    .galleryContainer .pricingImgContainer img {
+        transform: scale(1);
+    }
+
+.galleryContainer .pricingTextContainer {
+    position: absolute;
+    width: 90%;
+    padding: 100px 0 0 40px;
+}
+
+.galleryContainer .imageViewer {
+    width: 30%;
+    height: 420px;
+    overflow: hidden;
+    float: left;
+    padding: 0 !important;
+}
+
+    .galleryContainer .imageViewer .galleryImg {
+        padding: 0;
+        width: calc(100% - 15px);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 100%;
+    }
+
+    .galleryContainer .imageViewer .gall-img1 {
+        background-image: url( https://ik.imagekit.io/gsquare/gallery/img-04.jpg);
+    }
+
+    .galleryContainer .imageViewer .gall-img2 {
+        background-image: url( https://ik.imagekit.io/gsquare/gallery/img-02.jpg);
+        height: calc(50% - 10px);
+        margin-bottom: 15px;
+    }
+
+    .galleryContainer .imageViewer .gall-img3 {
+        background-image: url( https://ik.imagekit.io/gsquare/gallery/img-03.jpg);
+        height: 50%;
+    }
+
+    .galleryContainer .imageViewer .gall-img4 {
+        background-image: url( https://ik.imagekit.io/gsquare/gallery/img-01.jpg);
+    }
+
+.galleryContainer .middleCont {
+    width: 40%;
+}
+
+.testmonialCont {
+    padding-top: 40px;
+    display: block;
+}
+
+    .testmonialCont .pricingTextContainer {
+        width: 40%;
+        padding-left: 20%;
+        height: 100%;
+    }
+
+#owl-carousel1 .item {
+    background-color: transparent;
+    color: #000;
+    display: block;
+    max-width: 400px;
+    margin: 0 0 0 auto;
+    height: auto;
+}
+
+    #owl-carousel1 .item h4 {
+        font-size: 30px;
+        font-family: gitan-latin;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    #owl-carousel1 .item span {
+        font-family: gitan-latin;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: 12px;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+    }
+
+        #owl-carousel1 .item span img {
+            margin-right: 8px;
+            width: 15px;
+        }
+
+    #owl-carousel1 .item p {
+        padding-top: 10px;
+        font-family: gitan-latin;
+        font-weight: 100;
+    }
+
+.testmonialCont .pricingImgContainer::after {
+    content: " ";
+    background: url( https://ik.imagekit.io/gsquare/Layout/arrow-02.png) bottom center;
+    position: absolute;
+    bottom: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    text-align: center;
+    right: 12%;
+    width: 100%;
+    height: 17%;
+    background-position: right;
+}
+
+.testmonialCont .owl-theme .owl-nav {
+    max-width: 400px;
+    margin: 25px 0 0 auto;
+    text-align: left;
+}
+
+.testmonialCont .owl-next img, .testmonialCont .owl-prev img {
+    width: 75px;
+    margin-right: 20px;
+}
+
+.testmonialCont .owl-next, .testmonialCont .owl-prev {
+    background: transparent !important;
+}
+
+.testmonialCont .testiTextCont {
+    position: relative;
+    top: 20%;
+}
+
+.testmonialCont .pricingTextContainer .layouttext {
+    padding: 0 0;
+    max-width: 100%;
+}
+
+.testmonialCont .pricingImgContainer {
+    height: 100%;
+    width: 40%;
+}
+
+    .testmonialCont .pricingImgContainer .layoutImg {
+        border-radius: 160px 160px 0 0;
+        background-size: cover !important;
+        background: url("https://ik.imagekit.io/gsquare/testimonials.jpeg");
+        width: 100%;
+        max-width: 330px;
+        position: relative;
+        top: calc(100% - 480px);
+    }
+
+        .testmonialCont .pricingImgContainer .layoutImg img {
+            top: 30px;
+            left: 0;
+            width: 65px;
+        }
+
+.aboutCont {
+    padding-top: 40px;
+    display: block;
+}
+
+    .aboutCont .pricingTextContainer {
+        width: 70%;
+    }
+
+        .aboutCont .pricingTextContainer .layouttext {
+            padding: 10% 15% 50px 15%;
+            max-width: 100%;
+        }
+
+    .aboutCont .pricingImgContainer {
+        height: 100%;
+        width: 30%;
+    }
+
+        .aboutCont .pricingImgContainer .layoutImg {
+            background-size: contain !important;
+            background: url("https://ik.imagekit.io/gsquare/About/divider.png?tr=f-webp");
+            width: 100%;
+            /* max-width: 330px;*/
+            position: relative;
+            top: calc(100% - 473px);
+            float: right;
+            z-index: auto;
+            background-repeat: no-repeat;
+        }
+
+            .aboutCont .pricingImgContainer .layoutImg img {
+                top: 30px;
+                left: 0;
+                width: 100%;
+                left: -50%;
+                transform: scale(1.5);
+                z-index: -2;
+            }
+
+.contactCont {
+    padding-top: 0;
+    width: 100%;
+    max-width: 768px;
+    position: fixed;
+    right: 0px;
+    z-index: 999;
+    right: -100%;
+    display: block;
+    transition: 0.7s;
+}
+
+    .contactCont .close-but {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        cursor: pointer;
+    }
+
+        .contactCont .close-but img {
+            width: 100px;
+        }
+
+    .contactCont .pricingTextContainer {
+        width: 100%;
+        background-color: #006756;
+        background-image: url( https://ik.imagekit.io/gsquare/Salient/Pattern.png);
+    }
+
+        .contactCont .pricingTextContainer .bgwaterleft {
+            position: relative;
+            top: -20px;
+            left: -40px;
+        }
+
+        .contactCont .pricingTextContainer .patterIcon {
+            position: absolute;
+            top: 40px;
+            left: 0;
+            right: 0;
+            width: 85%;
+            margin: auto;
+            display: block;
+        }
+
+            .contactCont .pricingTextContainer .patterIcon .FormContainer {
+                width: 100%;
+            }
+
+                .contactCont .pricingTextContainer .patterIcon .FormContainer .childElement {
+                    padding-top: 20px;
+                    color: #fff;
+                }
+
+                    .contactCont .pricingTextContainer .patterIcon .FormContainer .childElement span {
+                        font-size: 14px;
+                        text-transform: uppercase;
+                    }
+
+                    .contactCont .pricingTextContainer .patterIcon .FormContainer .childElement h5 {
+                        font-size: 30px;
+                        line-height: 1.5;
+                        padding-top: 10px;
+                    }
+
+                .contactCont .pricingTextContainer .patterIcon .FormContainer .formCont {
+                    padding-top: 33px;
+                }
+
+                    .contactCont .pricingTextContainer .patterIcon .FormContainer .formCont form {
+                        padding-top: 30px;
+                    }
+
+                    .contactCont .pricingTextContainer .patterIcon .FormContainer .formCont input {
+                        width: 100%;
+                        margin-bottom: 40px;
+                        height: 38px;
+                        background-color: #095042;
+                        color: #fff;
+                        border: none;
+                        outline: none;
+                        border-bottom: 1px solid #fff;
+                    }
+
+                        .contactCont .pricingTextContainer .patterIcon .FormContainer .formCont input:first-child {
+                            margin-right: 40px;
+                        }
+
+                        .contactCont .pricingTextContainer .patterIcon .FormContainer .formCont input::placeholder {
+                            /* Chrome, Firefox, Opera, Safari 10.1+ */
+                            color: #fff;
+                            font-size: 12px;
+                            opacity: 1;
+                            /* Firefox */
+                        }
+
+                    .contactCont .pricingTextContainer .patterIcon .FormContainer .formCont button {
+                        width: 150px;
+                        height: 40px;
+                        border-radius: 34px;
+                        background-color: #fff;
+                        color: #0a5043;
+                        font-size: 14px;
+                        outline: none;
+                        border: none;
+                        float: right;
+                    }
+
+.imagePopup {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 12;
+}
+
+    .imagePopup .innerpopUP {
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: antiquewhite;
+        background-image: url( https://ik.imagekit.io/gsquare/Layout/Img-3.jpg);
+        ;
+    }
+
+.innerpopUP button {
+    background-color: #000;
+    border: 0px;
+    color: #fff;
+    font-family: 'gitan-latin';
+    padding: 3px 10px 8px 10px;
+    cursor: pointer;
+}
+
+.fixedBody {
+    overflow: hidden;
+}
+
+.salientCont::before {
+    content: " ";
+    background: url("https://ik.imagekit.io/gsquare/Layout/arrow-02.png?tr=f-webp") bottom center;
+    position: absolute;
+    top: 72%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    text-align: center;
+    z-index: 0;
+    left: -16%;
+    width: 100%;
+    height: 17%;
+    background-position: left;
+}
+
+.salient-ul {
+    list-style: none;
+}
+
+    .salient-ul li {
+        padding: 8px 0px;
+        display: flex;
+        align-items: center;
+    }
+
+        .salient-ul li img {
+            width: 28px;
+            height: 28px;
+            margin-right: 8px;
+        }
+
+.about-ul {
+    list-style: none;
+}
+
+    .about-ul li {
+        padding: 10px 0px;
+        display: flex;
+    }
+
+        .about-ul li img {
+            width: 32px;
+            height: 32px;
+            margin-bottom: -14px;
+            margin-right: 14px;
+        }
+
+        .about-ul li p {
+            padding: 0px !important;
+        }
+
+.salientCont .pricingTextContainer .layouttext h3 {
+    line-height: 1;
+    font-weight: 200 !important;
+}
+
+.salientCont .pricingTextContainer .layouttext {
+    margin: 0 30px 0 auto;
+    max-width: 500px;
+}
+
+.salientCont .pricingTextContainer {
+    width: 40%;
+}
+
+    .salientCont .pricingTextContainer .layouttext h4 {
+        line-height: 1.8;
+        padding-top: 20px;
+    }
+
+.salientCont .pricingImgContainer {
+    position: relative;
+    height: 100%;
+    width: 60%;
+    /*top: -85px;*/
+}
+
+    .salientCont .pricingImgContainer .carouselGroup {
+        width: 90%;
+        height: 100%;
+        margin-left: 10%;
+        background-color: #006756;
+        background-image: url( https://ik.imagekit.io/gsquare/Salient/Pattern.png);
+    }
+
+        .salientCont .pricingImgContainer .carouselGroup .contain {
+            padding-top: 20%;
+            width: 110%;
+            margin-left: -10%;
+        }
+
+        .salientCont .pricingImgContainer .carouselGroup .item {
+            align-items: center;
+            background-color: #156c5d;
+            color: white;
+            display: flex;
+            /* max-height: 400px;
+  min-height:300px;*/
+            height: 100%;
+            justify-content: center;
+        }
+
+            .salientCont .pricingImgContainer .carouselGroup .item img {
+                height: 100%;
+            }
+
+            .salientCont .pricingImgContainer .carouselGroup .item p {
+                color: #fff;
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+                right: 20px;
+                font-size: 25px;
+                font-weight: 500;
+                line-height: 1.3;
+                font-family: 'gitan-latin';
+            }
+
+        .salientCont .pricingImgContainer .carouselGroup .previewClass {
+            transform: scale(0.9);
+        }
+
+            .salientCont .pricingImgContainer .carouselGroup .previewClass p {
+                display: none;
+            }
+
+        .salientCont .pricingImgContainer .carouselGroup .slider-counter {
+            font-size: 52px;
+            color: #588c81;
+            margin-top: -56px;
+            padding-left: 20px;
+            font-family: 'Dahlia';
+            font-weight: 600;
+            display: none;
+        }
+
+    .salientCont .pricingImgContainer .owl-theme .owl-nav {
+        margin-left: 100px;
+        text-align: left;
+    }
+
+    .salientCont .pricingImgContainer .carouselGroup .arrow-icon {
+        width: 70px;
+        margin-top: 50px;
+        filter: sepia(1);
+    }
+
+    .salientCont .pricingImgContainer .carouselGroup .owl-theme .owl-nav [class*='owl-']:hover {
+        background: none;
+    }
+
+    .salientCont .pricingImgContainer .personRight {
+        position: absolute;
+        width: auto;
+        height: 100%;
+        top: 0;
+        right: -50%;
+        transform: scale(1.1);
+        z-index: 1;
+        /*position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -70%;
+  transform: scale(1.1);*/
+    }
+
+.contain {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.item {
+    align-items: center;
+    background-color: tomato;
+    color: white;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .bgwater {
+        min-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .bgpricing .pricingTextContainer {
+        float: none;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .bgpricing .pricingImgContainer {
+        float: none;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+        height: 100%;
+        display: block;
+        width: 100%;
+    }
+
+        .bgpricing .pricingImgContainer img {
+            height: 100%;
+            transform: scale(1);
+        }
+}
+
+@media (min-width: 394px) and (max-width: 623px) {
+    .first h1 {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    section#layoutcont {
+        margin-top: -90px;
+    }
+
+    .salientCont .pricingImgContainer .carouselGroup .arrow-icon {
+        margin-top: 0px;
+    }
+
+    .owl-theme .owl-nav {
+        margin-top: 0px !important;
+    }
+
+    .salientCont .pricingImgContainer .owl-theme .owl-nav {
+        margin-left: 0px !important
+    }
+
+    header.sticky {
+    }
+
+    video {
+        display: none !important;
+    }
+
+    .bgwater .bubbleContainer {
+        padding-top: 70px;
+    }
+
+    .bgpricing .pricingTextContainer section {
+        padding-left: 15px;
+        padding-right: 15px;
+        overflow: hidden;
+    }
+
+    .bgpricing .pricingTextContainer ul {
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+        .bgpricing .pricingTextContainer ul li {
+            font-size: 13px;
+            width: 28%;
+        }
+
+            .bgpricing .pricingTextContainer ul li:nth-child(2) {
+                width: 42%;
+            }
+
+            .bgpricing .pricingTextContainer ul li:nth-child(3) {
+                width: 42%;
+            }
+
+    .bgpricing .pricingTextContainer .centerCont li {
+        padding: 6px 10px 8px;
+        font-size: 12px;
+    }
+
+    .bgpricing .pricingImgContainer img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .bgLayout {
+        padding-top: 30px;
+        height: auto;
+    }
+
+        .bgLayout .pricingTextContainer {
+            float: none;
+            width: 100%;
+        }
+
+            .bgLayout .pricingTextContainer .layouttext {
+                padding: 0 20px;
+            }
+
+                .bgLayout .pricingTextContainer .layouttext .arrowright {
+                    display: none;
+                }
+
+        .bgLayout .pricingImgContainer {
+            float: none;
+            width: 100%;
+            padding-top: 30px;
+        }
+
+            .bgLayout .pricingImgContainer .layoutImg {
+                width: calc(100% - 40px);
+                margin-left: 20px;
+                margin-right: 20px;
+                display: block;
+            }
+
+        .bgLayout .pricingTextContainer .layouttext p {
+            font-size: 14px;
+        }
+
+        .bgLayout .pricingImgContainer .personRight {
+            display: none;
+        }
+
+    .salientCont .pricingImgContainer {
+        width: 100% !important;
+    }
+
+        .salientCont .pricingImgContainer .carouselGroup {
+            margin: 0 !important;
+            width: 100% !important;
+            background-color: transparent;
+            position: relative;
+        }
+
+            .salientCont .pricingImgContainer .carouselGroup::after {
+                content: '';
+                width: 100%;
+                height: 55%;
+                background-color: #006756;
+                position: absolute;
+                bottom: 0;
+                background-size: cover;
+            }
+
+            .salientCont .pricingImgContainer .carouselGroup .contain {
+                width: calc(100% - 40px);
+                margin-left: 20px !important;
+                margin-right: 20px !important;
+            }
+
+    .salientCont .pricingImgContainer {
+        top: 0px !important;
+    }
+
+        .salientCont .pricingImgContainer .owl-theme .owl-nav {
+            text-align: center;
+            margin-right: 0px;
+        }
+
+        .salientCont .pricingImgContainer .carouselGroup .slider-counter {
+            position: absolute;
+            bottom: 80px;
+            z-index: 1;
+            right: 30px;
+        }
+
+    .amenities {
+        transform: none;
+    }
+
+        .amenities .sliceCont {
+            transform: none;
+        }
+
+        .amenities .bgwaterleft {
+            display: none;
+        }
+
+        .amenities .pricingTextContainer {
+            width: calc(100% - 40px);
+            padding-top: 8px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+            .amenities .pricingTextContainer .layouttext {
+                padding-top: 0px;
+                padding-bottom: 20px;
+                padding-left: 0px;
+            }
+
+                .amenities .pricingTextContainer .layouttext p {
+                    font-size: 13px;
+                }
+
+        .amenities .pricingImgContainer .amenities-ico {
+            position: relative;
+        }
+
+            .amenities .pricingImgContainer .amenities-ico .imageCont .circleImg {
+                display: none;
+            }
+
+    .ameni-mobile {
+        height: auto;
+        min-height: 50vh;
+        position: relative;
+        width: calc(100% - 40px);
+        margin: 0 20px 0;
+    }
+
+    .ameni-title {
+        width: 100%;
+        overflow: hidden;
+        border: 1px solid #006757;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+        .ameni-title .icon {
+            float: left;
+            transform: scale(1) !important;
+            width: 60px !important;
+        }
+
+        .ameni-title h3 {
+            float: left;
+            color: #006757;
+            padding: 23px 0 0;
+            font-size: 14px;
+        }
+
+        .ameni-title .person {
+            float: left;
+            transform: scale(1) !important;
+            width: 60px !important;
+        }
+
+        .ameni-title .minus {
+            display: none;
+        }
+
+        .ameni-title.open .minus {
+            display: block;
+        }
+
+        .ameni-title.open .plus {
+            display: none;
+        }
+
+    .ameni-desc {
+        background: #006757;
+        padding: 20px;
+        margin-left: 30px;
+        color: #fff;
+        display: none;
+    }
+
+    .ameni-title.open + .ameni-desc {
+        display: block;
+    }
+
+    .ameni-desc li {
+        list-style: none;
+        padding: 5px 0 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bgwater .bgwaterright {
+        display: none;
+    }
+
+    .bgwater .bubbleContainer {
+        padding-top: 40px;
+    }
+
+        .bgwater .bubbleContainer .imageContainer {
+            height: 100%;
+        }
+
+        .bgwater .bubbleContainer h3 {
+            margin-left: 32px;
+        }
+}
+
+@font-face {
+    font-family: 'Dahlia';
+    src: url("./../../fonts/dahlia-bold.otf");
+}
+
+
+.mobile-divder, .mobile-divder-bottom {
+    display: none;
+}
+
+.hide-mobile {
+    /* display: none; */
+}
+
+.show-mobile {
+    display: none;
+}
+
+
+/***Mobile***/
+@media(max-width:767px) {
+    header {
+        position: fixed !important;
+    }
+
+    .first {
+        margin-top: -70px;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .show-mobile {
+        display: block;
+    }
+
+    header img {
+        width: 140px;
+    }
+
+    .call {
+        width: 20px !important;
+        height: 20px !important;
+        top: 20px !important;
+    }
+
+    .inquire {
+        padding: 5px 21px 5px 20px !important;
+        right: 90px !important;
+        font-size: 12px !important;
+        margin-top: 4px;
+        top: 16px;
+    }
+
+
+    .walkthrogh, .walkthrogh .sliceCont {
+        transform: none !important
+    }
+
+    .salientCont .pricingImgContainer .carouselGroup .item p {
+        font-size: 18px;
+    }
+
+    #whatsnearby .layouttext {
+        max-width: 90% !important;
+    }
+
+    .bgLayout .locationTextContainer .layouttext h3 {
+        margin-bottom: 15px;
+    }
+
+    .mapcol2, .routes, .nearbyout {
+        width: 100% !important;
+        display: inline-block !important;
+        overflow: hidden;
+    }
+
+    .hideonmobile {
+        display: none !important
+    }
+
+    .amenities {
+        height: auto;
+        width: 100%;
+        min-width: 100%;
+    }
+
+        .amenities .sliceCont {
+            overflow: hidden;
+        }
+
+        .amenities .pricingImgContainer {
+            width: 100% !important;
+            height: auto;
+            min-height: 50vh;
+            margin-top: 20px;
+        }
+
+        .amenities .pricingTextContainer .layouttext {
+            max-width: initial
+        }
+
+    .section1-stamp img {
+        width: 86px;
+        height: 86px;
+        position: relative;
+        left: auto;
+        bottom: auto;
+        margin-top: 16px;
+    }
+
+    .first-scf {
+        display: none !important;
+    }
+
+    .bgLayout .pricingTextContainer .layouttext h3, .bgLayout .locationTextContainer .layouttext h3, .walkthrogh .sliceCont h3, .amenities .pricingTextContainer h3, .bgpricing .pricingTextContainer h3, .bgwater .bubbleContainer h3, .galleryContainer .layouttext h3 {
+        font-size: 60px !important;
+    }
+
+    .bgwater .bubbleContainer .imageContainer img {
+        display: none;
+    }
+
+    .bgwater .bgwaterleft, .bgwater .bgwaterright {
+        display: none;
+    }
+
+    .mobile-divder {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: -30px;
+    }
+
+    .mobile-divder-bottom {
+        display: block;
+        width: 100%;
+        position: absolute;
+        bottom: -30px;
+    }
+
+    .bgwater .bubbleContainer .imageContainer {
+        display: none;
+    }
+
+    .drop span {
+        font-size: 25px !important;
+    }
+
+    .bgwater .bubbleContainer .bubbleGroup .drop {
+        font-size: 14px;
+        position: relative;
+    }
+
+    .bgwater .bubbleContainer .bubbleGroup .bubbleChild11l .drop {
+        left: -63% !important;
+    }
+
+    .bgwater .bubbleContainer .bubbleGroup .bubbleChild1 .drop {
+        left: -23% !important;
+        margin-top: 10% !important;
+        width: 155px !important;
+        height: 155px !important;
+    }
+
+    .drop {
+        width: 130px !important;
+        height: 130px !important;
+        left: 1% !important;
+    }
+
+    .bgwater .bubbleContainer .bubbleGroup {
+        width: 100% !important;
+        margin-left: 0px !important;
+        padding-bottom: 40px;
+    }
+
+        .bgwater .bubbleContainer .bubbleGroup .bubbleChild2 .drop {
+            width: 130px;
+            height: 130px;
+            left: -23% !important;
+            margin-top: 15% !important;
+            right: auto;
+        }
+
+        .bgwater .bubbleContainer .bubbleGroup .bubbleChild3 .drop {
+            margin-top: -15% !important;
+            position: absolute;
+            left: auto !important;
+            right: 10%;
+        }
+
+        .bgwater .bubbleContainer .bubbleGroup .bubbleChild4 .drop {
+            margin-top: -15% !important;
+            left: 15% !important;
+            width: 150px !important;
+        }
+
+        .bgwater .bubbleContainer .bubbleGroup .bubbleChild5 .drop {
+            left: -30% !important;
+            margin-top: -16% !important;
+            right: auto !important;
+            width: 70px !important;
+            height: 70px !important;
+        }
+
+    body {
+        width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .first, .bgwater, .bgpricing, .bgLayout, .walkthrogh, .bgpricing {
+        width: 100% !important;
+        /* overflow-x:hidden!important;     */
+        min-width: 100% !important;
+    }
+
+    .bgpricing {
+        display: block;
+    }
+
+    .bgwater .bubbleContainer {
+        padding: 23px 0px;
+        height: auto !important;
+        display: inline-block;
+        flex-direction: column;
+    }
+
+        .bgwater .bubbleContainer .bubbleGroup .bubbleChild3l .drop {
+            margin-top: -15% !important;
+            position: absolute;
+            left: auto !important;
+            right: 8vw;
+        }
+
+        .bgwater .bubbleContainer .bubbleGroup .bubbleChild2l .drop {
+            left: -25vw !important;
+            margin-top: 10% !important;
+        }
+
+        .bgwater .bubbleContainer .bubbleGroup .bubbleChild4l .drop {
+            left: 20% !important;
+            margin-top: -32% !important;
+            width: 160px !important;
+        }
+
+    .bgwater {
+        height: auto !important;
+    }
+
+
+        .bgwater .bubbleContainer h3 {
+            text-align: center;
+            margin-left: 0px;
+            text-shadow: 0px 2px 2px #1694d0;
+            color: #fff;
+        }
+
+    .bgLayout .pricingImgContainer .layoutImg {
+        max-width: 400px;
+        float: none;
+    }
+
+    #layoutcont .pricingImgContainer .layoutImg {
+        width: 90vw;
+        display: block;
+        margin: 0px 20px 0px 20px;
+        /*height: 160px;*/
+    }
+
+        #layoutcont .pricingImgContainer .layoutImg img {
+            height: 80px !important;
+            width: 80px !important;
+            right: -16px !important;
+        }
+
+    #layoutcont .pricingImgContainer .layoutImgtwo {
+        margin-top: 30px;
+    }
+
+    .bgLayout .pricingTextContainer .layouttext h4 {
+        font-size: 20px;
+    }
+
+    .bgLayout {
+        display: block;
+    }
+
+    .mapContant {
+        overflow: hidden;
+    }
+
+    .bgLayout .pricingTextContainer .layouttext {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .testmonialCont {
+        padding: 0px 20px;
+        width: calc(100% - 40px) !important;
+        min-width: calc(100% - 40px) !important;
+    }
+
+        .testmonialCont .pricingTextContainer .layouttext {
+            padding: 0px;
+        }
+
+        .testmonialCont .pricingTextContainer {
+            padding: 0px;
+        }
+
+    .galleryContainer .graphick_grid {
+        display: block;
+        width: 410vw;
+        padding-left: 0;
+        margin: 20px 0 0;
+        max-width: none;
+    }
+
+    .galleryContainer {
+        overflow-x: scroll;
+        height: auto;
+    }
+
+        .galleryContainer .graphick_grid a {
+            display: block;
+            width: calc(100vw - 50px);
+            float: left;
+            padding-right: 20px;
+        }
+
+    .walkthrogh {
+        height: auto;
+    }
+
+        .walkthrogh .sliceCont h3 {
+            padding-left: 20px;
+        }
+
+    .walk-top-cut {
+        position: absolute;
+        top: -20px;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .walk-bottom-cut {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .walkthrogh .sliceCont .cycle {
+        background-size: cover;
+    }
+
+    .galleryContainer {
+        background: transparent !important;
+        padding: 20px;
+    }
+
+    .sitegallery li {
+        width: 49% !important;
+    }
+
+    .pressgallery li {
+        width: 100% !important;
+    }
+
+    .salient-mobile-bottom {
+        margin-top: -150px;
+    }
+
+        .salient-mobile-bottom img {
+            max-width: 100%;
+        }
+
+    .aboutCont .pricingImgContainer .layoutImg {
+        background-position: 50% 100%;
+        height: 370px;
+    }
+
+    .abt-bottom {
+        margin-top: -40px;
+    }
+
+        .abt-bottom img {
+            max-width: 100%;
+        }
+
+    .contactCont {
+        right: -130%;
+        top: -30px;
+    }
+
+        .contactCont .pricingTextContainer .patterIcon .FormContainer .childElement h5 {
+            font-size: 18px;
+        }
+
+        .contactCont .pricingTextContainer .patterIcon .FormContainer .formCont input {
+            width: 100%;
+        }
+
+    #owl-carousel1 .owl-nav {
+        margin-top: 0px;
+    }
+
+    .bgLayout .pricingImgContainer .layoutImg img {
+        right: -15px;
+        bottom: -15px;
+    }
+}
+
+
+.pano {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    cursor: move;
+    top: 0;
+    position: absolute;
+}
+
+    .pano .controls {
+        position: relative;
+        top: 40%;
+    }
+
+        .pano .controls a {
+            position: absolute;
+            display: inline-block;
+            text-decoration: none;
+            color: #eee;
+            font-size: 3em;
+            width: 20px;
+            height: 20px;
+        }
+
+            .pano .controls a.left {
+                left: 10px;
+            }
+
+            .pano .controls a.right {
+                right: 10px;
+            }
+
+    .pano.moving .controls a {
+        opacity: 0.4;
+        color: #eee;
+    }
